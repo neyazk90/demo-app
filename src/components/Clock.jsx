@@ -55,7 +55,7 @@ const Clock = () => {
                     ))}
                 </select>
             )}
-            <div className="clock md:w-32 text-center md:mt-0 sm:mt-10 font-bold">{formattedTime}</div>
+            <div className="clock md:w-32 text-center mt-3 font-bold">{formattedTime}</div>
             <button className="btn" onClick={clockHandler}>
                 {isPaused ? "Start" : "Pause"}{" "}
             </button>
