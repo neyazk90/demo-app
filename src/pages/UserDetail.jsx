@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import Clock from "../components/Clock";
 import PostCard from "../components/PostCard";
-import User from "../components/user";
+import User from "../components/User";
 
 import UserContext from "../shared/store/UserContext";
 
