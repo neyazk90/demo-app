@@ -2,8 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider } from "react-router";
 
-import { appRoutes } from "./Routes";
-import App from './App.jsx'
+import { appRoutes } from "./routes";
 import './index.css'
 
 const container = document.getElementById('root');
